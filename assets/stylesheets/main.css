@@ -9,7 +9,7 @@ h5 {
 }
 
 p, a {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
 }
 
 nav {
@@ -30,12 +30,16 @@ nav {
 }
 
 .icon {
-  border: 3px;
+  border: 4px;
   border-color: #ffcc00;
   border-style: solid;
-  width: 28px;
-  height: 36px;
+  width: 29px;
+  height: 42px;
   line-height: normal;
+}
+
+.title {
+  padding-left: 36px;
 }
 
 #overlap {
@@ -46,21 +50,28 @@ nav {
   height: 100%;
 }
 
-
+.navbar {
+  display: block;
+}
 
 .nav-item {
   color: white;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 .nav-item:hover {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .navbar-dark .navbar-toggler {
   color: white;
   border: 0;
+}
+
+.navbar-toggler {
+  color: white;
+  font-size: 1rem;
 }
 
 #border-left {
