@@ -8,6 +8,11 @@ h5 {
     font-size: 1.1rem;
 }
 
+h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+}
+
 p, a {
     font-size: 0.85rem;
 }
@@ -75,7 +80,7 @@ nav {
 }
 
 #border-left {
-  border-left: 3px;
+  border-left: 5px;
   border-color: #ffcc00;
   border-left-style: solid;
   padding-left: 2rem;
