@@ -152,6 +152,13 @@ nav {
     padding-bottom: 100%;
 }
 
+.highlighted {
+  width: auto;
+  height: 50%;
+  background-image: url("../images/ocelot.jpg");
+  background-size: cover;
+}
+
 .image-selector div:nth-child(1){
     background-image: url("../images/iguana.jpg");
     background-size: cover;
