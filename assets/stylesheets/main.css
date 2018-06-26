@@ -96,6 +96,20 @@ nav {
 }
 
 /*Article section*/
+
+#row_1 {
+  height: 120vh;
+  position: absolute;
+  left: 5%;
+}
+
+#row_2 {
+  height: 120vh;
+  position: relative;
+  left: 5%;
+  max-width: 95%;
+}
+
 .article_header {
   font-size: 1.2rem;
   font-weight: 900;
@@ -139,7 +153,8 @@ nav {
 }
 
 .square {
-    width: 25%;
+    width: 50%;
+    height: 50%;
 }
 
 .square:after {
