@@ -1,19 +1,19 @@
 /* Globals */
 
 h6 {
-    color: #ffcc00;
+  color: #ffcc00;
 }
 
 h5 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 p, a {
-    font-size: 0.85rem;
+  font-size: 0.85rem;
 }
 
 nav {
-    z-index: 10;
+  z-index: 10;
 }
 
 /* End of Globals */
@@ -131,25 +131,25 @@ nav {
 }
 
 .left-picture {
-    position: relative;
-    left: 5%;
-    z-index: 100;
+  position: relative;
+  left: 5%;
+  z-index: 100;
 }
 
 .text-squares {
-    color: lightgray;
-    font-size: 0.7rem;
+  color: lightgray;
+  font-size: 0.7rem;
 }
 
 .square {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 .square:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .highlighted {
@@ -160,18 +160,18 @@ nav {
 }
 
 .image-selector div:nth-child(1){
-    background-image: url("../images/iguana.jpg");
-    background-size: cover;
+  background-image: url("../images/iguana.jpg");
+  background-size: cover;
 }
 
 .image-selector div:nth-child(2){
-    background-image: url("../images/owl.jpg");
-    background-size: cover;
+  background-image: url("../images/owl.jpg");
+  background-size: cover;
 }
 
 .image-selector div:nth-child(3){
-    background-image: url("../images/fox.jpg");
-    background-size: cover;
+  background-image: url("../images/fox.jpg");
+  background-size: cover;
 }
 
 /* End of article */
@@ -254,6 +254,7 @@ input[type="text"]:focus {
   border-bottom: 1px solid white;
   cursor: text;
 }
+
 input[type="submit"] {
   display: inline-block;
   color: red;
@@ -268,8 +269,6 @@ input[type="submit"] {
   opacity: 0;
   cursor: pointer;
   transition: opacity .4s ease;
-
-  align-items: baseline;
 }
 
 input[type="submit"]:hover {
@@ -277,14 +276,15 @@ input[type="submit"]:hover {
 }
 
 ::placeholder {
-    color: white;
-    opacity: 1; /* Firefox */
+  color: white;
+  opacity: 1; /* Firefox */
+  vertical-align: bottom;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: white;
+  color: white;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: white;
+  color: white;
 }
