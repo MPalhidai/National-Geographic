@@ -29,19 +29,6 @@ nav {
   height: 100vh;
 }
 
-.icon {
-  border: 4px;
-  border-color: #ffcc00;
-  border-style: solid;
-  width: 29px;
-  height: 42px;
-  line-height: normal;
-}
-
-.title {
-  padding-left: 36px;
-}
-
 #overlap {
   position: absolute;
   left: 5%;
@@ -81,14 +68,13 @@ nav {
 .mag {
   font-size: 4rem;
   font-weight: 700;
+  line-height: 1;
 }
 
 #border-left {
   border-left: 5px;
   border-color: #ffcc00;
   border-left-style: solid;
-  padding-left: 2rem;
-  line-height: 0.75;
 }
 
 .row {
