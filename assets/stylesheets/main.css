@@ -1,7 +1,4 @@
 /* Globals */
-/* * {
-  overflow-x: hidden;
-} */
 
 h6 {
   color: #ffcc00;
@@ -69,9 +66,36 @@ nav {
 }
 
 .mag {
+  padding: 3rem;
+}
+
+.mag-title {
+  padding-left: 3rem;
+  margin-bottom: 1rem;
   font-size: 4rem;
   font-weight: 700;
   line-height: 1;
+}
+
+.mag-summary {
+  font-size: 1.1rem;
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .mag {
+    padding: 0px;
+  }
+
+  .mag-title {
+    font-size: 3rem;
+    padding-left: 1rem;
+  }
+
+  .mag-summary {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
 }
 
 #border-left {
