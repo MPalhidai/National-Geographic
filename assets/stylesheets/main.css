@@ -67,6 +67,7 @@ nav {
 
 .mag {
   padding: 3rem;
+  color: white;
 }
 
 .mag-title {
@@ -83,8 +84,13 @@ nav {
 }
 
 @media screen and (max-width: 650px) {
+  #overlap {
+    position: absolute;
+    left: 0;
+  }
+
   .mag {
-    padding: 0px;
+    padding: 15px;
   }
 
   .mag-title {
@@ -146,6 +152,7 @@ nav {
 .left-picture {
   position: relative;
   left: 5%;
+  min-width: 100px;
   z-index: 100;
 }
 
